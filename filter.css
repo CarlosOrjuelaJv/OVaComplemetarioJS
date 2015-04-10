@@ -1,0 +1,69 @@
+.invertido {
+    -webkit-filter : invert(100%);
+    -moz-filter : invert(100%);
+    -ms-filter : invert(100%);
+    -o-filter : invert(100%);
+    filter : invert(100%);
+}
+
+.grises {
+    -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.brillo{
+  -webkit-filter: brightness(5);/* Chrome y Safari */
+  -moz-filter: brightness(5);/* Mozilla */
+  -ms-filter: brightness(5);/* Internet Explorer */
+  -o-filter: brightness(5);/* Opera */
+  filter : brightness(5); 
+}
+
+.sepia{
+  -webkit-filter: sepia(2);/* Chrome y Safari */
+  -moz-filter: sepia(1);/* Mozilla */
+  -ms-filter: sepia(1);/* Internet Explorer */
+  -o-filter: sepia(1);/* Opera */
+  filter : sepia(1); 
+}
+
+.grises{
+  -webkit-filter: grayscale(0.5);/* Chrome y Safari */
+  -moz-filter: grayscale(0.5);/* Mozilla */
+  -ms-filter: grayscale(0.5);/* Internet Explorer */
+  -o-filter: grayscale(0.5);/* Opera */
+  filter : grayscale(0.5); 
+}
+
+.tinta{
+  -webkit-filter: grayscale(50%) sepia(50%);/* Chrome y Safari */
+  -moz-filter: grayscale(50%) sepia(50%);/* Mozilla */
+  -ms-filter: grayscale(50%) sepia(50%);/* Internet Explorer */
+  -o-filter: grayscale(50%) sepia(50%);/* Opera */
+  filter : grayscale(50%) sepia(50%); 
+}
+
+.tinta:hover { 
+  -webkit-filter: grayscale(50%) sepia(0%);/* Chrome y Safari */
+  -moz-filter: grayscale(50%) sepia(0%);/* Mozilla */
+  -ms-filter: grayscale(50%) sepia(0%);/* Internet Explorer */
+  -o-filter: grayscale(50%) sepia(0%);/* Opera */
+  filter : grayscale(50%) sepia(0%); 
+}
+  
+.opaco{
+  -webkit-filter: opacity(.5);/* Chrome y Safari */
+  -moz-filter: opacity(.5);/* Mozilla */
+  -ms-filter: opacity(.5);/* Internet Explorer */
+  -o-filter: opacity(.5);/* Opera */
+  filter : opacity(.5);
+}
+
+.contraste{
+  -webkit-filter: sepia(90%) hue-rotate(90deg);/* Chrome y Safari */
+  -moz-filter: contrast(2);/* Mozilla */
+  -ms-filter: contrast(2);/* Internet Explorer */
+  -o-filter: contrast(2);/* Opera */
+  filter : contrast(2);
+}
+
